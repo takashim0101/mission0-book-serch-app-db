@@ -23,7 +23,7 @@ This README provides instructions for setting up the database for the Amazing Bo
         id INT AUTO_INCREMENT PRIMARY KEY, -- User ID
         email VARCHAR(255) NOT NULL UNIQUE, -- User Email (must be unique)
         password VARCHAR(255) NOT NULL -- User Password
-);
+    );
 
 4. **Insert Initial User Data**:
     ```sql
@@ -36,7 +36,7 @@ This README provides instructions for setting up the database for the Amazing Bo
     id INT AUTO_INCREMENT PRIMARY KEY, -- User ID
     email VARCHAR(255) NOT NULL UNIQUE, -- User Email (must be unique)
     password VARCHAR(255) NOT NULL -- User Password
-);
+    );
 
 6. ***Delete All Users***:
     ```sql
@@ -54,13 +54,13 @@ This README provides instructions for setting up the database for the Amazing Bo
     ```sql
     SHOW GRANTS FOR 'root'@'localhost';
 
-*Usage*
+### Usage
 ***Run the SQL commands in your preferred SQL client or command line interface to set up the database and the users table.***
 
-*License*
+### License
 ***This project is licensed under the MIT License. See the LICENSE file for details.***
 
-*Acknowledgments*
+### Acknowledgments
 ***Please use this template to add any project-specific information as needed. If you have any questions, feel free to let me know!***
 
 
